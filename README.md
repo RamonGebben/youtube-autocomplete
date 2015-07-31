@@ -1,0 +1,1 @@
+Use this module if you want to quickly embed a Youtube search box in your application.
