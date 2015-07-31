@@ -1,0 +1,27 @@
+{
+  "name": "youtube-autocomplete",
+  "version": "1.0.0",
+  "description": "A React.js Youtube autocomplete component",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hackingbeauty/youtube-autocomplete.git"
+  },
+  "keywords": [
+    "react.js",
+    "youtube",
+    "autocomplete"
+  ],
+  "author": "Mark M. Muskardin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackingbeauty/youtube-autocomplete/issues"
+  },
+  "homepage": "https://github.com/hackingbeauty/youtube-autocomplete#readme",
+  "devDependencies": {
+    "gulp-babel": "^5.2.0"
+  }
+}
