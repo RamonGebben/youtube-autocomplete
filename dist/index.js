@@ -14,9 +14,9 @@ var _reactTypeaheadComponent = require('react-typeahead-component');
 
 var _reactTypeaheadComponent2 = _interopRequireDefault(_reactTypeaheadComponent);
 
-var _templatesOptionTemplateJsx = require('./templates/OptionTemplate.jsx');
+var _templatesOptionTemplateJs = require('./templates/OptionTemplate.js');
 
-var _templatesOptionTemplateJsx2 = _interopRequireDefault(_templatesOptionTemplateJsx);
+var _templatesOptionTemplateJs2 = _interopRequireDefault(_templatesOptionTemplateJs);
 
 var _jquery = require('jquery');
 
@@ -98,7 +98,7 @@ exports['default'] = _react2['default'].createClass({
         autoFocus: true,
         placeholder: 'Search Youtube',
         onKeyUp: this.onKeyPress,
-        optionTemplate: _templatesOptionTemplateJsx2['default'],
+        optionTemplate: _templatesOptionTemplateJs2['default'],
         onChange: this.handleChange.bind(this),
         onComplete: this.handleComplete,
         onOptionChange: this.handleOptionChange,
