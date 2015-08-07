@@ -4,10 +4,10 @@ import OptionTemplate from './templates/OptionTemplate.jsx';
 import $ from 'jquery';
 import Fluxxor from 'fluxxor';
 
-let FluxMixin = Fluxxor.FluxMixin( React );
-let StoreWatchMixin = Fluxxor.StoreWatchMixin;
+var FluxMixin = Fluxxor.FluxMixin( React );
+var StoreWatchMixin = Fluxxor.StoreWatchMixin;
 
-let googleUrl =  '//suggestqueries.google.com/complete/search?client=youtube&ds=yt&q=';
+var googleUrl =  '//suggestqueries.google.com/complete/search?client=youtube&ds=yt&q=';
 
 export default React.createClass({
   mixins: [FluxMixin],
