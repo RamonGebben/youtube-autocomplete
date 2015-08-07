@@ -1,8 +1,8 @@
 {
   "name": "youtube-autocomplete",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React.js Youtube autocomplete component",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile",
@@ -15,7 +15,8 @@
   "keywords": [
     "react.js",
     "youtube",
-    "autocomplete"
+    "autocomplete",
+    "react-component"
   ],
   "author": "Mark M. Muskardin",
   "license": "MIT",
