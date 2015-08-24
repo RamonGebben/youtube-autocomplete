@@ -1,6 +1,6 @@
 {
   "name": "youtube-autocomplete",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A React.js Youtube autocomplete component",
   "main": "dist/index.js",
   "scripts": {
