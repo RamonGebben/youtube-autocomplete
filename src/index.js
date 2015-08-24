@@ -71,7 +71,7 @@ export default React.createClass({
           options={this.state.options}
           inputId={this.props.id}
           autoFocus={true}
-          placeholder='Search Youtube'
+          placeholder={this.props.placeholder}
           onKeyUp={this.onKeyPress}
           optionTemplate={OptionTemplate}
           onChange={this.handleChange.bind(this)}
