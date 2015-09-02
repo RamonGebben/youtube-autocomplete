@@ -59,7 +59,7 @@ export default React.createClass({
     var inputValue = this.state.inputValue;
     var flux = this.getFlux();
     if(inputValue){
-      flux.actions.searchTerm(inputValue);
+      flux.actions.search(inputValue);
     }
   },
 
